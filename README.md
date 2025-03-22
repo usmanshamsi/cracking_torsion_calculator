@@ -1,4 +1,4 @@
-# cracking_torsion_calculator
+# Cracking Torsion Calculator
 Calculates cracking torsion for RCC rectangular sections
 
 <br><br>
