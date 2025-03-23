@@ -13,7 +13,6 @@
 
         Dim b As Double = Convert.ToDouble(inputWidth.Text)
         Dim h As Double = Convert.ToDouble(inputHeight.Text)
-        Dim cc As Double = Convert.ToDouble(inputClearCover.Text)
         Dim fc As Double = Convert.ToDouble(inputFC.Text)
 
         Dim phi As Double
@@ -40,5 +39,14 @@
 HandleError:
         MsgBox("An error has occured. Please check all input values and try again", vbOKOnly, "Oh, I am sorry!")
 
+    End Sub
+
+    Private Sub save_form_state(sender As System.Object, e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
+        FormSerialisation.FormSerialisor.Serialise(Me, Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\usmanshamsi__cracking_torsion_calculator.xml")
+    End Sub
+
+    Private Sub load_saved_values(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        FormSerialisation.FormSerialisor.Deserialise(Me, Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) & "\usmanshamsi__cracking_torsion_calculator.xml")
+        Button1.PerformClick()
     End Sub
 End Class

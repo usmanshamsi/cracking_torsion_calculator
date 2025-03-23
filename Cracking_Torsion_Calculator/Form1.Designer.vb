@@ -29,9 +29,6 @@ Partial Class Form1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.inputHeight = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.inputClearCover = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.outputAcp = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -119,36 +116,10 @@ Partial Class Form1
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Total depth of RCC beam, h"
         '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(503, 99)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(32, 16)
-        Me.Label6.TabIndex = 9
-        Me.Label6.Text = "inch"
-        '
-        'inputClearCover
-        '
-        Me.inputClearCover.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.inputClearCover.Location = New System.Drawing.Point(317, 96)
-        Me.inputClearCover.Name = "inputClearCover"
-        Me.inputClearCover.Size = New System.Drawing.Size(180, 21)
-        Me.inputClearCover.TabIndex = 8
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(14, 99)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(224, 16)
-        Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Clear cover to outer hoop / stirrup, cc"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(503, 241)
+        Me.Label8.Location = New System.Drawing.Point(503, 210)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(46, 16)
         Me.Label8.TabIndex = 12
@@ -159,7 +130,7 @@ Partial Class Form1
         Me.outputAcp.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.outputAcp.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.outputAcp.ForeColor = System.Drawing.Color.Blue
-        Me.outputAcp.Location = New System.Drawing.Point(317, 238)
+        Me.outputAcp.Location = New System.Drawing.Point(317, 207)
         Me.outputAcp.Name = "outputAcp"
         Me.outputAcp.ReadOnly = True
         Me.outputAcp.Size = New System.Drawing.Size(180, 21)
@@ -169,7 +140,7 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(14, 241)
+        Me.Label9.Location = New System.Drawing.Point(14, 210)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(220, 16)
         Me.Label9.TabIndex = 10
@@ -178,7 +149,7 @@ Partial Class Form1
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(503, 128)
+        Me.Label10.Location = New System.Drawing.Point(503, 97)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(26, 16)
         Me.Label10.TabIndex = 15
@@ -187,7 +158,7 @@ Partial Class Form1
         'inputFC
         '
         Me.inputFC.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.inputFC.Location = New System.Drawing.Point(317, 125)
+        Me.inputFC.Location = New System.Drawing.Point(317, 94)
         Me.inputFC.Name = "inputFC"
         Me.inputFC.Size = New System.Drawing.Size(180, 21)
         Me.inputFC.TabIndex = 14
@@ -195,7 +166,7 @@ Partial Class Form1
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(14, 128)
+        Me.Label11.Location = New System.Drawing.Point(14, 97)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(278, 16)
         Me.Label11.TabIndex = 13
@@ -204,7 +175,7 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(503, 270)
+        Me.Label12.Location = New System.Drawing.Point(503, 239)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(32, 16)
         Me.Label12.TabIndex = 18
@@ -215,7 +186,7 @@ Partial Class Form1
         Me.outputPcp.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.outputPcp.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.outputPcp.ForeColor = System.Drawing.Color.Blue
-        Me.outputPcp.Location = New System.Drawing.Point(317, 267)
+        Me.outputPcp.Location = New System.Drawing.Point(317, 236)
         Me.outputPcp.Name = "outputPcp"
         Me.outputPcp.ReadOnly = True
         Me.outputPcp.Size = New System.Drawing.Size(180, 21)
@@ -225,7 +196,7 @@ Partial Class Form1
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(14, 270)
+        Me.Label13.Location = New System.Drawing.Point(14, 239)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(248, 16)
         Me.Label13.TabIndex = 16
@@ -234,7 +205,7 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(14, 157)
+        Me.Label15.Location = New System.Drawing.Point(14, 126)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(175, 16)
         Me.Label15.TabIndex = 19
@@ -243,7 +214,7 @@ Partial Class Form1
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(503, 297)
+        Me.Label16.Location = New System.Drawing.Point(503, 266)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(47, 16)
         Me.Label16.TabIndex = 24
@@ -254,7 +225,7 @@ Partial Class Form1
         Me.outputTcr_lbinch.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.outputTcr_lbinch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.outputTcr_lbinch.ForeColor = System.Drawing.Color.Blue
-        Me.outputTcr_lbinch.Location = New System.Drawing.Point(317, 294)
+        Me.outputTcr_lbinch.Location = New System.Drawing.Point(317, 263)
         Me.outputTcr_lbinch.Name = "outputTcr_lbinch"
         Me.outputTcr_lbinch.ReadOnly = True
         Me.outputTcr_lbinch.Size = New System.Drawing.Size(180, 21)
@@ -264,7 +235,7 @@ Partial Class Form1
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(14, 297)
+        Me.Label17.Location = New System.Drawing.Point(14, 266)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(161, 16)
         Me.Label17.TabIndex = 22
@@ -273,7 +244,7 @@ Partial Class Form1
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(503, 324)
+        Me.Label18.Location = New System.Drawing.Point(503, 293)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(36, 16)
         Me.Label18.TabIndex = 26
@@ -284,7 +255,7 @@ Partial Class Form1
         Me.outputTcr_kipft.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.outputTcr_kipft.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.outputTcr_kipft.ForeColor = System.Drawing.Color.Blue
-        Me.outputTcr_kipft.Location = New System.Drawing.Point(317, 321)
+        Me.outputTcr_kipft.Location = New System.Drawing.Point(317, 290)
         Me.outputTcr_kipft.Name = "outputTcr_kipft"
         Me.outputTcr_kipft.ReadOnly = True
         Me.outputTcr_kipft.Size = New System.Drawing.Size(180, 21)
@@ -295,7 +266,7 @@ Partial Class Form1
         '
         Me.radPhi_075.AutoSize = True
         Me.radPhi_075.Checked = True
-        Me.radPhi_075.Location = New System.Drawing.Point(317, 155)
+        Me.radPhi_075.Location = New System.Drawing.Point(317, 124)
         Me.radPhi_075.Name = "radPhi_075"
         Me.radPhi_075.Size = New System.Drawing.Size(50, 20)
         Me.radPhi_075.TabIndex = 27
@@ -306,7 +277,7 @@ Partial Class Form1
         'radPhi_085
         '
         Me.radPhi_085.AutoSize = True
-        Me.radPhi_085.Location = New System.Drawing.Point(381, 155)
+        Me.radPhi_085.Location = New System.Drawing.Point(381, 124)
         Me.radPhi_085.Name = "radPhi_085"
         Me.radPhi_085.Size = New System.Drawing.Size(50, 20)
         Me.radPhi_085.TabIndex = 28
@@ -317,7 +288,7 @@ Partial Class Form1
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(314, 345)
+        Me.Label14.Location = New System.Drawing.Point(314, 314)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(180, 32)
         Me.Label14.TabIndex = 29
@@ -325,7 +296,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(317, 181)
+        Me.Button1.Location = New System.Drawing.Point(317, 150)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(147, 28)
         Me.Button1.TabIndex = 30
@@ -334,7 +305,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(17, 413)
+        Me.Button2.Location = New System.Drawing.Point(17, 382)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 31
@@ -343,7 +314,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(486, 413)
+        Me.Button3.Location = New System.Drawing.Point(486, 382)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 32
@@ -354,7 +325,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(573, 448)
+        Me.ClientSize = New System.Drawing.Size(573, 417)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -376,9 +347,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.outputAcp)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.inputClearCover)
-        Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.inputHeight)
         Me.Controls.Add(Me.Label5)
@@ -402,9 +370,6 @@ Partial Class Form1
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents inputHeight As System.Windows.Forms.TextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents inputClearCover As System.Windows.Forms.TextBox
-    Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents outputAcp As System.Windows.Forms.TextBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
